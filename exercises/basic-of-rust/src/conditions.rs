@@ -15,7 +15,8 @@ pub fn bigger(a: i32, b: i32) -> i32 {
 // Check number is Positive or Negative or Zero
 // Output: &str
 fn check_number(number: i32) -> &'static str {
-    todo!()
+    if number>=0 { "positive number"} 
+    else { "negative number"}
 }
 
 // Exercise 3
