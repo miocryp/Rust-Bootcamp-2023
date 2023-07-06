@@ -11,7 +11,7 @@ pub fn bigger(a: i32, b: i32) -> i32 {
 // Input: Provide an arbitrary value of number
 // Check number is Positive or Negative or Zero
 // Output: &str
-fn check_number(number: u32) -> &'static str {
+fn check_number(number: i32) -> &'static str {
     todo!()
 }
 
@@ -23,7 +23,7 @@ pub fn foo_if_fizz(fizzish: &str) -> &str {
     if fizzish == "fizz" {
         "foo"
     } else {
-        1
+        "fizz"
     }
 }
 
